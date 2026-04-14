@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02fec2a9-ebae-44ab-9ccc-f95798b48523" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week4/flash cards/data/characters.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/flash cards/flash_cards.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/flash cards/images/da_card_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/flash cards/images/da_card_front.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/flash cards/images/da_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week4/flash cards/images/da_wrong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/trivia/da_trivia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/trivia/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/trivia/images/da_card_front.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/trivia/images/da_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/trivia/images/da_wrong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/trivia/question_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/trivia/trivia.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4/trivia/ui.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week4/flash cards/flash_cards.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week4/flash cards/flash_cards.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Week3/nato/nato_phonetic_alphabet.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Week4/trivia/ui.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -34,6 +38,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.band_name.executor": "Run",
     "Python.da_quiz.executor": "Run",
+    "Python.da_trivia.executor": "Run",
     "Python.flash_cards.executor": "Run",
     "Python.higher_lower.executor": "Run",
     "Python.main.executor": "Run",
@@ -47,6 +52,8 @@
     "Python.spirograph.executor": "Run",
     "Python.tips.executor": "Run",
     "Python.treasure.executor": "Run",
+    "Python.trivia.executor": "Run",
+    "Python.ui.executor": "Run",
     "Python.walk.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -56,7 +63,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/wineg/OneDrive/Desktop/PythonProject/Week4/flash cards/data",
+    "last_opened_file_path": "C:/Users/wineg/OneDrive/Desktop/PythonProject/Week4/trivia/images",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -64,6 +71,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week4\trivia\images" />
       <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week4\flash cards\data" />
       <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week4\flash cards\images" />
       <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week3\nato" />
@@ -71,6 +79,38 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week4\flash cards\images" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="flash_cards" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week4/flash cards" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week4/flash cards/flash_cards.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.flash_cards" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -93,7 +133,7 @@
       <workItem from="1774901522737" duration="192000" />
       <workItem from="1774903062242" duration="240000" />
       <workItem from="1774903349970" duration="46108000" />
-      <workItem from="1775592321089" duration="29828000" />
+      <workItem from="1775592321089" duration="50057000" />
     </task>
     <servers />
   </component>
@@ -104,16 +144,19 @@
     <SUITE FILE_PATH="coverage/Band_Name_Generator$password.coverage" NAME="password Coverage Results" MODIFIED="1775698074976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3/password" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$questions.coverage" NAME="questions Coverage Results" MODIFIED="1775081375905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2/quiz" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$spirograph.coverage" NAME="spirograph Coverage Results" MODIFIED="1775008338661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
-    <SUITE FILE_PATH="coverage/Band_Name_Generator$flash_cards.coverage" NAME="flash_cards Coverage Results" MODIFIED="1776114591132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4/flash cards" />
+    <SUITE FILE_PATH="coverage/Band_Name_Generator$flash_cards.coverage" NAME="flash_cards Coverage Results" MODIFIED="1776201925799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4/flash cards" />
+    <SUITE FILE_PATH="coverage/Band_Name_Generator$ui.coverage" NAME="ui Coverage Results" MODIFIED="1776130154838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4/trivia" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$walk.coverage" NAME="walk Coverage Results" MODIFIED="1775080356815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$main.coverage" NAME="main Coverage Results" MODIFIED="1775607867923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$player.coverage" NAME="player Coverage Results" MODIFIED="1775168177507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3/races" />
+    <SUITE FILE_PATH="coverage/Band_Name_Generator$da_trivia.coverage" NAME="da_trivia Coverage Results" MODIFIED="1776131401241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4/trivia" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$band_name.coverage" NAME="band_name Coverage Results" MODIFIED="1774904213590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week1" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$higher_lower.coverage" NAME="higher_lower Coverage Results" MODIFIED="1774999053872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$quiz_brain.coverage" NAME="quiz_brain Coverage Results" MODIFIED="1775080750679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$question_model.coverage" NAME="question_model Coverage Results" MODIFIED="1775083996447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2/quiz" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$da_quiz.coverage" NAME="da_quiz Coverage Results" MODIFIED="1775084155058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2/quiz" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$nato_phonetic_alphabet.coverage" NAME="nato_phonetic_alphabet Coverage Results" MODIFIED="1775607132725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3/nato" />
+    <SUITE FILE_PATH="coverage/Band_Name_Generator$trivia.coverage" NAME="trivia Coverage Results" MODIFIED="1776205536063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4/trivia" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$tips.coverage" NAME="tips Coverage Results" MODIFIED="1774911585820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week1" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$treasure.coverage" NAME="treasure Coverage Results" MODIFIED="1774989614385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week1" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$snake.coverage" NAME="snake Coverage Results" MODIFIED="1775093490904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3/snake" />

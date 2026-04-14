@@ -2,6 +2,8 @@ from tkinter import *
 import pandas
 import random
 
+
+
 BACKGROUND_COLOR = "Black"
 current_card = {}
 to_learn ={}
