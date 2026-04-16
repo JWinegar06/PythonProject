@@ -6,6 +6,32 @@ h1 {
   font-size: 3rem;
 }
 
+/* Nav */
+nav {
+  display: flex; 
+  justify-content: space-between; 
+  padding: 1rem 2rem; 
+  background: #0b3c7a;
+}
+
+nav ul {
+  display: flex; 
+  list-style: none; 
+}
+
+nav li {
+  padding-left: 2rem; 
+}
+
+nav a {
+  text-decoration: none;
+  color: slategray;
+}
+
+nav h2 {
+  color: slategray;
+}
+
 .poster {
   width: 50%;
   margin-left: 25%;
