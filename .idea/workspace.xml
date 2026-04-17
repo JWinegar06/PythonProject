@@ -2,18 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02fec2a9-ebae-44ab-9ccc-f95798b48523" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week5/name card/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/static/images/nyx5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/static/images/nyx6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/static/images/nyx7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/static/images/nyx8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/nyx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/nyx.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/nyx2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/nyxnoct.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +141,7 @@
       <workItem from="1774901522737" duration="192000" />
       <workItem from="1774903062242" duration="240000" />
       <workItem from="1774903349970" duration="46108000" />
-      <workItem from="1775592321089" duration="77238000" />
+      <workItem from="1775592321089" duration="77889000" />
     </task>
     <servers />
   </component>
