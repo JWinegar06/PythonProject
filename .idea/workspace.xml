@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02fec2a9-ebae-44ab-9ccc-f95798b48523" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week5/movies/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week5/movies/movies_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/static/images/nyx5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/static/images/nyx6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/static/images/nyx7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/static/images/nyx8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/nyx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/nyx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/nyx2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/nyxnoct.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week5/name card/templates/nyx/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,7 +46,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.nyx.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.band_name.executor": "Run",
     "Python.da_quiz.executor": "Run",
@@ -44,6 +63,7 @@
     "Python.question_model.executor": "Run",
     "Python.questions.executor": "Run",
     "Python.quiz_brain.executor": "Run",
+    "Python.server.executor": "Run",
     "Python.snake.executor": "Run",
     "Python.spirograph.executor": "Run",
     "Python.tips.executor": "Run",
@@ -59,7 +79,7 @@
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/wineg/OneDrive/Desktop/PythonProject/Week4/trivia/images",
+    "last_opened_file_path": "C:/Users/wineg/OneDrive/Desktop/PythonProject/Week5/name card/static/images",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
@@ -67,12 +87,16 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week5\name card\static\images" />
+      <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week5\name card\templates\nyx" />
       <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week4\trivia\images" />
       <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week4\flash cards\data" />
       <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week4\flash cards\images" />
-      <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week3\nato" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week5\name card\templates\nyx" />
+      <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week5\name card\static" />
+      <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week5\name card\templates" />
       <recent name="C:\Users\wineg\OneDrive\Desktop\PythonProject\Week4\flash cards\images" />
     </key>
   </component>
@@ -129,7 +153,7 @@
       <workItem from="1774901522737" duration="192000" />
       <workItem from="1774903062242" duration="240000" />
       <workItem from="1774903349970" duration="46108000" />
-      <workItem from="1775592321089" duration="69694000" />
+      <workItem from="1775592321089" duration="77238000" />
     </task>
     <servers />
   </component>
@@ -144,6 +168,7 @@
     <SUITE FILE_PATH="coverage/Band_Name_Generator$ui.coverage" NAME="ui Coverage Results" MODIFIED="1776130154838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4/trivia" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$walk.coverage" NAME="walk Coverage Results" MODIFIED="1775080356815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week2" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$main.coverage" NAME="main Coverage Results" MODIFIED="1776380613446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week5/movies" />
+    <SUITE FILE_PATH="coverage/Band_Name_Generator$server.coverage" NAME="server Coverage Results" MODIFIED="1776385178942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week5/name card" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$player.coverage" NAME="player Coverage Results" MODIFIED="1775168177507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3/races" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$da_trivia.coverage" NAME="da_trivia Coverage Results" MODIFIED="1776131401241" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4/trivia" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$band_name.coverage" NAME="band_name Coverage Results" MODIFIED="1774904213590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week1" />
@@ -154,7 +179,7 @@
     <SUITE FILE_PATH="coverage/Band_Name_Generator$nato_phonetic_alphabet.coverage" NAME="nato_phonetic_alphabet Coverage Results" MODIFIED="1776308174100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3/nato" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$trivia.coverage" NAME="trivia Coverage Results" MODIFIED="1776307783052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week4/trivia" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$tips.coverage" NAME="tips Coverage Results" MODIFIED="1774911585820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week1" />
-    <SUITE FILE_PATH="coverage/Band_Name_Generator$movies_ui.coverage" NAME="movies_ui Coverage Results" MODIFIED="1776380652813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week5/movies" />
+    <SUITE FILE_PATH="coverage/Band_Name_Generator$movies_ui.coverage" NAME="movies_ui Coverage Results" MODIFIED="1776380783095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week5/movies" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$treasure.coverage" NAME="treasure Coverage Results" MODIFIED="1774989614385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week1" />
     <SUITE FILE_PATH="coverage/Band_Name_Generator$snake.coverage" NAME="snake Coverage Results" MODIFIED="1775093490904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Week3/snake" />
   </component>
